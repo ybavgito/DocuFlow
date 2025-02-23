@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+pymongo
+PyJWT
+cloudinary
+pytesseract
+Pillow
+python-multipart

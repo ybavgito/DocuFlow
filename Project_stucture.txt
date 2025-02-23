@@ -1,0 +1,27 @@
+inventory-management/
+│── backend/                    # FastAPI Backend
+│   ├── main.py                  # FastAPI Application (entry point)
+│   ├── database.py              # MongoDB connection
+│   ├── auth.py                  # Authentication logic (JWT, user management)
+│   ├── inventory.py             # Inventory CRUD API
+│   ├── document.py              # Document Upload & OCR API
+│   ├── models.py                # MongoDB Schema (Pydantic Models)
+│   ├── requirements.txt         # Python dependencies
+│   ├── .env                     # Environment variables
+│   ├── config.py                # App configuration
+│   ├── utils.py                 # Utility functions
+│
+│── frontend/                    # React.js Frontend
+│   ├── public/                  # Static files
+│   ├── src/                     
+│   │   ├── components/          # Reusable UI components
+│   │   ├── pages/               # Pages (Login, Dashboard, Inventory, Upload)
+│   │   ├── services/            # API calls to backend
+│   │   ├── App.js               # Main React component
+│   │   ├── index.js             # Entry point
+│   │   ├── styles.css           # Global styles
+│   ├── package.json             # Frontend dependencies
+│
+│── docker-compose.yml           # Docker configuration (optional)
+│── README.md                    # Project Documentation
+│── .gitignore                    # Ignore unnecessary files
